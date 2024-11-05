@@ -1,0 +1,201 @@
+@font-face{
+	
+	src: url(fonts/PTSans-Regular.ttf);
+	font-family: font_default;
+}
+
+
+.latest_news{
+	
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.categ_news_asc{
+	
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.news_heading{
+	
+	margin-top: 40px;
+	margin-left: 43px;
+}
+
+.categ_news_asc .categ_heading{
+	
+	margin-top: 40px;
+	padding-left: 167px;
+	text-align: left;
+	background-color: rgba(200, 200, 200, 0.1);
+	font-size: 24px;
+}
+
+.news_box{
+	
+	display: inline-block;
+	width: 250px;
+	height: 230px;
+	vertical-align: top;
+	margin-top: 10px;
+	padding: 5px;
+	text-align: left;
+}
+
+.news_box .categ_name{
+	
+	background: rgba(107, 155, 207, 0.5);
+	position: absolute;
+	margin-top: -27px;
+	padding: 3px 15px;
+	font-size: 12px;
+}
+
+
+.news_box .image{
+
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+}
+
+.news_box .image img{
+	
+	width: 100%;
+}
+
+.news_box .title-news{
+	
+	display: block;
+	padding-top: 5px;
+}
+
+/*-- Last 4 category news sec --*/
+
+
+.categ_news_desc{
+	
+	margin-top: 70px;
+	text-align: center;
+}
+.categ_news_desc .category{
+	
+	
+	min-height: 200px;
+	vertical-align: top;
+	display: inline-block;
+	width: 390px;
+	margin: 10px;
+}
+
+
+.categ_news_desc .category .news_box{
+	
+	display: block;
+	width: 100%;
+	height: 100px;
+	
+}
+
+.categ_news_desc .categ_heading{
+	
+	display: block;
+	text-align: left;
+	border-bottom: 2px solid #333;
+}
+
+.categ_news_desc .news_box .image{
+	width: 130px;
+	height: 80px;
+	overflow: hidden;
+	float: left;
+}
+
+.categ_news_desc .news_box img{
+	width: 100%;
+}
+
+.categ_news_desc .news_box .newsbox-heading{
+
+	display: block;
+	width: 64%;
+	float: right;	
+}
+
+.categ_news_desc .news_box a:hover{
+
+	color: blue;
+	text-decoration: none;
+}
+
+/*-- Videos sec --*/
+
+
+
+.videos_sec{
+	
+	text-align: center;
+	padding: 0px 10px;
+}
+
+.videos_sec a .arrow-icon{
+	
+	color: #222;
+	font-size: 22px;
+	margin-top: 80px;
+	padding: 2px 20px;
+}
+
+.video_heading{
+	
+	margin-top: 20px;
+	padding-left: 167px;
+	text-align: left;
+	background-color: rgba(200, 200, 200, 0.1);
+	font-size: 24px;
+}
+
+
+.video_box{
+	
+	display: inline-block;
+	width: 250px;
+	height: 230px;
+	vertical-align: top;
+	margin-top: 10px;
+	padding: 5px;
+	text-align: left;
+}
+
+.video_box .categ_name{
+	
+	background: rgba(107, 155, 207, 0.5);
+	position: absolute;
+	margin-top: -32px;
+	padding: 3px 15px;
+	font-size: 12px;
+}
+
+
+.video_box .video_cover{
+
+	width: 100%;
+	height: 140px;
+	overflow: hidden;
+	border: 1px solid rgb(200, 200, 200);
+	background: rgb(222, 222, 222);
+}
+
+.video_box .video_cover img, video{
+	
+	width: 100%;
+}
+
+.video_box .video-caption{
+	
+	display: block;
+	padding-top: 0px;
+}
+
+
