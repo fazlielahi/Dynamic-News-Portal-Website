@@ -1,0 +1,142 @@
+body{
+	
+	height: 0;
+}
+
+.content .dashboard{
+	
+	width: 990px;
+	height: 490px;
+	position: absolute;
+	right: 40;
+	margin-top: 0px;
+	box-shadow: 0px 1px 5px 5px rgb(230, 230, 230);
+	z-index: -1;
+	background: rgb(245, 245, 245);
+	padding-top: 40px;		
+}
+
+
+.content .dashboard_new {
+	
+	width: 1200px;
+	animation: dashboard_new 2s;
+	margin-left: 0;
+	
+}
+
+@keyframes dashboard_new{
+	
+	from{
+		width: 990px;	
+	}
+	
+	to{
+		width: 1200px;
+	}
+}
+
+#news_box {
+	
+	width: 310px;
+	height: 287px;
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	display: inline-block;
+	vertical-align: top;
+	padding-bottom: 10px;
+	background: white;
+	box-shadow: 0px 0px 15px 5px rgb(235, 235, 235);
+	border-radius: 10px;
+	margin: 5px;
+}
+
+#web_box {
+	
+	width: 96%;
+	height: 137px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: white;
+	display: inline-block;
+	vertical-align: top;
+	padding-bottom: 10px;
+	box-shadow: 0px 0px 15px 5px rgb(235, 235, 235);
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	border-radius: 10px;
+}
+
+#web_box .web-image{
+	
+	width: 350px;
+	margin-top: 10px;
+	
+}
+
+#news_box .news-image{
+	
+	width: 60%;
+}
+
+#news_box .num_news{
+	
+	width: 100%;
+	color: #444;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Gabriola Regular;
+	margin-top: -2px;
+	padding: 5px 0;
+	background: linear-gradient(90deg, #006677 10%, rgb(240, 240, 240) 90%);
+	line-height: 25px;
+}
+
+#news_box .title{
+	
+	width: 100%;
+	color: #333;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: Gabriola Regular;
+	margin-top: 3px;
+	padding-top: 5px;
+	
+}
+
+
+#news_box .num_categ{
+	
+	width: 100%;
+	color: #444;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Gabriola Regular;
+	margin-top: 8px;
+	padding: 5px 0;
+	line-height: 25px;
+	background: rgb(240, 240, 240);
+}
+
+#news_box .categ-image{
+	
+	width: 55%;
+	margin-top: 2px;
+}
+
+#news_box .members-image{
+	
+	width: 50%;
+	margin-top: 12px;
+}
+
+#news_box .num_members{
+	
+	width: 100%;
+	color: #444;
+	padding: 5px 0;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Gabriola Regular;
+	margin-top: 13px;
+	line-height: 25px;
+	background: linear-gradient(90deg, rgb(240, 240, 240) 10%, #006677 90%);
+}

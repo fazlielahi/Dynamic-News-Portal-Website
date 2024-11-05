@@ -1,0 +1,212 @@
+body{
+	
+	height: 0;
+}
+
+.member-add-sec{
+	
+	width: 990px;
+	height: 680px;
+	position: absolute;
+	right: 0;
+	margin-top: 0px;
+	z-index: -1;
+	background: rgba(245, 245, 245, 0.8);
+	padding-top: 40px;
+	display: none;
+}
+
+.member-add-sec-new {
+	
+	width: 1200px;
+	display: block;
+	animation: member_add_sec 1s;  
+}
+
+
+
+@keyframes member_add_sec{
+	
+	from{
+		display: none;
+	}
+	
+	to{
+		display: block;
+	}
+}
+
+#form_heading {
+	
+	width: 100%;	
+	height: 55px;
+	border: none;
+	border-bottom: 1px solid rgba(000, 60, 200, 0.1);
+	vertical-align: top;
+	padding: 15px 15px;
+	background: white;
+	box-shadow: 0px 0px 5px 0px rgb(235, 235, 235);
+	border-radius: 10px;
+	text-align: left;
+	color: #444;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+
+#form {
+	
+	width: 78%;
+	height: 620px;
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	display: inline-block;
+	vertical-align: top;
+	padding-bottom: 10px;
+	background: white;
+	box-shadow: 0px 0px 15px 5px rgb(235, 235, 235);
+	border-radius: 10px;
+	float: right;	
+	animation: add_news_anim 2s;
+	overflow: hidden;
+}
+
+@keyframes add_news_anim{
+	
+	from{
+		width: 60%;
+	}
+	
+	to{
+		width: 78%;
+	}
+}
+
+.row1{
+
+	height: 270px;
+	padding: 10px 30px;
+
+}
+
+.row1 .col1{
+
+	width: 49%;
+	height: 100%;
+	float: left;
+
+}
+
+.row1 .col2{
+
+	width: 49%;
+	height: 100%;
+	float: right;
+
+}
+
+
+
+.field_heading{
+
+	display: inline-block;
+	color: #444;
+	text-align: left;
+	width: 45%;
+	float: left;
+	margin-left: 10px;
+}
+
+.monthyear_heading{
+
+	display: block;
+	width: 100%;
+	color: #444;
+	text-align: left;
+	margin-right: 10px;
+}
+
+#form .field{
+
+	width: 95%;
+	height: 45px;
+	box-shadow: 0px 0px 2px 0px rgb(235, 235, 235);
+	border-radius: 10px;
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	padding-left: 10px;
+	outline-color: lightgray;
+
+}
+
+
+.day .field_heading{
+	
+	display: block;
+	width: 100%;
+}
+
+.monthyear{
+	
+	width: 50%;
+	height: 50px;
+	float: right;
+	margin-right: 10px;
+}
+
+.day{
+	
+	width: 45%;
+	float: left;
+	height: 50px;
+	padding-left: 7px;
+}
+
+#form .monthyear_field{
+
+	width: 100%;
+	height: 45px;
+	box-shadow: 0px 0px 2px 0px rgb(235, 235, 235);
+	border-radius: 10px;
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	padding-left: 10px;
+	outline-color: lightgray;
+	display: block;
+
+}
+
+.image_field{
+
+	padding-top: 6px;
+
+}
+
+.button{
+	
+	
+	margin-top: 200px;
+}
+
+.save_btn{
+
+	color: #fff;
+	padding: 5px 30px;
+	background: #15283c;
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px #15283c;
+	width: 140px;
+	opacity: 0.8;
+	border: none;
+}
+
+.cancel_btn{
+
+	color: #000;
+	margin-top: 25px;
+	padding: 5px 30px;
+	border: 1px solid #15283c;
+	display: inline-block;
+	width: 140px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px #cccccc;
+	opacity: 0.8;
+}

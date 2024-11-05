@@ -1,0 +1,136 @@
+body{
+	
+	height: 0;
+} 
+
+.content .container-fluid {
+	
+	padding: 0;
+	width: 100%;
+	
+}
+
+.content .table {
+	
+	width: 970px;
+	position: absolute;
+	right: 50;
+	margin-top: 30px;
+	box-shadow: 0px 1px 2px 2px rgb(235, 235, 235);
+	margin-bottom: 20px;
+	z-index: -1;
+	
+}
+
+.content .table_new {
+	
+	width: 1179px;
+	animation: table_new 2s;
+	margin-left: 0;
+	
+}
+
+@keyframes table_new{
+	
+	from{
+		width: 970px;	
+	}
+	
+	to{
+		width: 1179px;
+	}
+}
+
+.table .header-row{
+	
+	background: rgb(240, 240, 240);
+}
+
+.table .sno-th{
+	
+	padding-left: 30px;
+	padding-top: 15px;
+	width: 30px;
+}
+
+.table .sno-td{
+	
+	padding: 15px 30px;
+}
+
+.table .categtitle-th{
+	
+	padding: 15px 10px;
+	width: 170px;
+}
+
+.table .author-th{
+	
+	width: 170px;
+	text-align: center;
+}
+
+.table .author-td{
+	
+	text-align: center;
+}
+
+.table .total-th{
+	
+	text-align: center;
+	width: 140px;
+}
+
+.table .total-td{
+	
+	text-align: center;
+}
+
+.table .datetime-th{
+	
+	text-align: left;
+	width: 190px;
+}
+.table .status-th{
+	
+	text-align: center;
+	width: 100px;
+}
+.table .status-td{
+	
+	text-align: center;
+	width: 100px;
+}
+
+.table .datetime-td{
+	
+	text-align: left;
+}
+
+.table .modify-th{
+	
+	text-align: left;
+	width: 170px;
+}
+
+.table .modify-td{
+	
+	width: 100px;
+	text-align: left;
+}
+
+.table .modify-td img{
+	
+	width: 25px;
+	margin-top: -5px;
+}
+
+.create_btn{
+	
+	float: right;
+	font-size: 16px;
+	margin-top: -5px;
+	margin-right: 20px;
+	border: 1px solid blue;
+	color: #0000ee;
+}

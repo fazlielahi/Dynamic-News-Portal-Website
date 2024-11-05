@@ -1,0 +1,382 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	
+	text-align: center;
+	color: #eee;
+	background: rgb(245, 245, 245);
+}
+
+/* Sidebar CSS */
+
+.sidebar{
+	
+	min-height: 800px;
+	width: 283px;
+	background: #15283c;
+	float: left;
+	background-image: url(../../images/sidebar-bg.png);
+	position: fixed;
+	top: 0;
+	
+}
+
+.sidebarnew{
+	
+	animation: new_sidebar 0.8s;
+	width: 70px;
+}
+
+.menu_text{
+	
+	display: none;
+}
+
+@keyframes new_sidebar
+{
+	
+	from{
+		width: 283px;
+	}
+
+	to{
+		width: 70px;
+	}
+}
+
+
+
+.sidebar .heading{
+	
+	background:  #15283c;
+	text-align: left;
+	padding: 18px 20px;
+	border-bottom: 1px solid orange;
+	font-weight: 100;
+	font-size: 22px;
+	
+}
+
+ #quick_access{
+
+	width: 30px;
+	display: none;
+	margin: 10px 15px;
+	border-bottom: 1px solid orange;
+}
+
+.sidebar .user-profile{
+	
+	height: 114px;
+	background: rgb(33, 65, 98);
+	text-align: left;
+	padding: 10px;
+	
+	
+}
+
+.sidebar .user-profile .profile{
+	
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	border: 1px solid lightblue;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 15px;
+	display: inline-block;
+	
+}
+
+.sidebar .user-profile .profile-pic{
+	
+	width: 40px;
+	height: 40px;
+	margin-top: 2px;
+	margin-left: 5px;
+	
+}
+
+.sidebar .user-profile img{
+	
+	width: 100%;
+	
+}
+
+.sidebar .user-profile h3{
+
+	font-size: 18px;
+	text-align: left;
+	margin-top: 35px;
+	display: inline-block;
+	vertical-align: top;
+	width: 160px;
+	min-height: 0px;
+}
+
+.sidebar .user-profile .online{
+
+	padding-left: 20px;
+	font-size: 14px;
+	margin-left: 100px;
+	margin-top: -40px;
+	color: #00aa99;		
+	
+}
+
+.online .dot_online{
+	
+	font-size: 50px;
+	position: absolute;
+	margin-top: -31px;
+	margin-left: -20px;
+	color: #00aa66;
+}
+
+
+
+.sidebar .menu{
+	
+	background: rgba(21, 40, 60, 0.7);
+	min-height: 400px;
+}
+
+.sidebar .menu a{
+
+	display: block;
+	text-align: left;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+.sidebar .menu img{
+	
+	width: 20px;
+	margin-bottom: 7px;
+}
+
+.sidebar .menu .menu-text{
+	
+	color: #eee;
+	margin-left: 10px;
+}
+
+.sidebar .menu a:hover{
+	
+	text-decoration: none;
+}
+
+/*-----------------------*/
+
+/* Header CSS */
+
+.header{
+	
+	height: 60px;
+	width: 1083px;	
+	background: #15283c;
+	
+	text-align: left;
+	top: 0;
+	right: 0;
+	position: fixed;
+	z-index: 1;
+}
+
+.header-new{
+	
+	width: 95%;
+	animation: new_header 0.8s;
+}
+
+
+@keyframes new_header
+{
+	
+	from{
+		width: 79%;
+	}
+
+	to{
+		width: 95%;
+	}
+}
+	
+.header .burger-icon{
+	
+	width: 70px;
+	height: 100%;
+	background: rgb(33, 65, 98);
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	padding-top: 5px;
+	margin-left: 0px;
+}
+
+.header .burger-icon img{
+	
+	width: 50px;
+	
+}
+
+.header .logo{
+	
+	margin-bottom: 55px;
+	margin-left: -3px;
+	width: 140px;
+	background: #ffffff;
+	height: 100%;
+}
+
+.header .member-profile{
+	
+	min-width: 10px;
+	height: 100%;
+	float: right;
+	background: #1f486f;
+	padding: 10px 10px;
+	padding-right: 30px;
+}
+
+.header .member-profile .profile-img{
+	
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	border: 1px solid lightblue;
+	border-radius: 100%;
+	display: inline-block;
+	
+}
+
+.header .member-profile .profile-img img{
+	
+	width: 100%;
+	
+}
+
+
+.header .member-profile ul{
+	
+	list-style: none;
+	display: inline-block;
+	font-size: 18px;
+	margin-top: 7px;
+	margin-left: 3px;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+
+.header .member-profile ul li{
+	
+	display: inline-block;
+}
+
+
+.header .member-profile ul li ul{
+	
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	background: #fff;
+	display: block;
+	display: none;
+	margin-left: -57px;
+	margin-top: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	border: 1px solid #eee;
+	z-index: 2;
+	
+}
+
+.header .member-profile ul li ul li{
+	
+	display: block;
+	z-index: 100px;
+	
+}
+
+.header .member-profile ul li ul li a{
+	
+	display: block;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 5px 15px;
+	color: #555;
+}
+
+
+
+
+
+.header .member-profile ul li ul li img{
+
+	width: 22px;
+	margin-top: -5px;
+
+}
+
+.header .member-profile ul li ul li a:hover{
+
+	background: #15283c;
+	color: #fff;
+
+}
+
+
+/*-----------------------*/
+
+/* Content CSS */
+
+
+.content {
+	
+	background: rgb(245, 245, 245);
+	margin-top: 0;
+	width: 100%;
+	margin-top: 70px;
+	padding-bottom: 30px;
+	padding-top: 40px;
+	
+	
+}
+
+.content .c_heading{
+	
+	text-align: left;
+	background: #ffffff;
+	height: 65px;
+	width: 79%;
+	color: #444;
+	font-size: 22px;
+	padding: 20 0;
+	box-shadow: 2px 2px 2px 2px rgb(235, 235, 235);
+	position: fixed;
+	top: 60;
+	right: 0;
+	z-index: 0;
+	border-top: 1px solid lightgray;
+}
+.content .content-heading{
+	
+	width: 1279px;
+	animation: conetnt_heading 0.8s;
+}
+
+@keyframes conetnt_heading{
+	
+	from{
+		width: 79%;
+	}
+
+	to{
+		width: 1279px;
+	}
+}

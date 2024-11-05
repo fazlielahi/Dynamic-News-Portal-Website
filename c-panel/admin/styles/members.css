@@ -1,0 +1,115 @@
+body{
+	
+	height: 0;
+}
+
+.content .users-sec{
+	
+	width: 990px;
+	height: 490px;
+	position: absolute;
+	right: 40;
+	margin-top: 0px;
+	box-shadow: 0px 1px 5px 5px rgb(230, 230, 230);
+	z-index: -1;
+	background: rgb(245, 245, 245);
+	padding-top: 60px;
+}
+
+
+.content .users_sec_new {
+	
+	width: 1200px;
+	animation: users_sec_new 2s;
+	margin-left: 0;	
+}
+
+@keyframes users_sec_new{
+	
+	from{
+		width: 990px;	
+	}
+	
+	to{
+		width: 1200px;
+	}
+}
+
+#user_box {
+	
+	width: 350px;
+	height: 327px;
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	display: inline-block;
+	vertical-align: top;
+	padding-bottom: 10px;
+	background: white;
+	box-shadow: 0px 0px 15px 5px rgb(235, 235, 235);
+	border-radius: 10px;
+	margin: 5px;
+}
+
+#user_box .image
+{
+	width: 130px;
+	height: 130px;
+	margin-top: 20px;
+	margin-left: -5px;
+	border-radius: 100%;
+	overflow: hidden;
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	display: inline-block;
+	box-shadow:  0px 10x 40px 10px red;
+}
+
+#user_box .image img
+{
+	width: 100%;
+}
+
+#user_box .username
+{
+	color: #444;
+	margin-top: 20px;
+	padding: 0px 10px;
+}
+
+#user_box .role
+{
+	color: #666;
+	margin-top: 0px;
+	display: block;
+}
+
+#user_box .profile_btn
+{
+	color: #fff;
+	margin-top: 25px;
+	padding: 5px 30px;
+	background: #15283c;
+	display: inline-block;
+	width: 140px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px #15283c;
+	opacity: 0.8;
+	
+}
+
+.arrow-icon
+{
+	width: 30px;
+	margin: 10px 30px;
+	margin-top: 180px;
+	opacity: 0.7;
+}
+
+
+.create_btn{
+	
+	float: right;
+	font-size: 16px;
+	margin-top: -5px;
+	margin-right: 20px;
+	border: 1px solid blue;
+	color: #0000ee;
+}

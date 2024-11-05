@@ -1,0 +1,153 @@
+body{
+	
+	height: 0;
+}
+
+.news-edit-sec{
+	
+	width: 1200px;
+	height: 1470px;
+	position: absolute;
+	right: 40;
+	margin-top: 0px;
+	z-index: -1;
+	background: rgba(245, 245, 245, 0.8);
+	padding-top: 0px;
+}
+
+#form {
+	
+	width: 78%;
+	min-height: 640px;
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	display: inline-block;
+	vertical-align: top;
+	padding-bottom: 10px;
+	background: white;
+	box-shadow: 0px 0px 15px 5px rgb(235, 235, 235);
+	border-radius: 10px;
+	float: right;	
+	animation: add_news_anim 2s;
+	overflow: hidden;
+}
+
+@keyframes add_news_anim{
+	
+	from{
+		width: 60%;
+	}
+	
+	to{
+		width: 78%;
+	}
+}
+
+#form .field{
+
+	width: 95%;
+	height: 45px;
+	box-shadow: 0px 0px 2px 0px rgb(235, 235, 235);
+	border-radius: 10px;
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 22px;
+	outline-color: lightgray;
+	float: left;
+}
+
+#form .img_field{
+
+	padding-top: 8px;
+}
+
+
+#form .status{
+
+	padding-top: 8px;
+	padding-left: 18px;
+	color: #000;
+	text-align: left;
+}
+
+.textarea{
+
+	color: #000;
+	margin: 10px 25px;
+}
+
+
+.pre_image{
+	
+	width: 95%;
+	min-height: 285px;
+	margin-right: 18px;
+	border-bottom: 0;
+	float: right;
+	margin-top: 37px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	overflow: hidden;
+}
+
+.pre_image img{
+	
+	width: 100%;
+}
+
+#form .field_heading{
+
+	display: inline-block;
+	color: #444;
+	text-align: left;
+	width: 95%;
+	margin-top: 15px;
+
+}
+
+.cross_btn{
+
+	color: #444;
+	float: right;
+	margin-right: 5px;
+	cursor: pointer;
+
+}
+
+#form .cross_btn:hover{
+
+	text-decoration: none;
+}
+
+
+#form .buttons{
+	
+	margin: 25px;
+}
+
+#form .buttons .btn{
+
+	color: #000;
+	padding: 5px 30px;
+	background-color: white;
+	border: 1px solid #15283c;
+	display: inline-block;
+	width: 140px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px #cccccc;
+	opacity: 0.8;
+}
+
+#form .buttons .active{
+
+	color: #fff;
+	padding: 5px 30px;	
+	margin-left: 2px;
+	background: #15283c;
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px #15283c;
+	width: 140px;
+	opacity: 0.8;
+	border: none;
+}

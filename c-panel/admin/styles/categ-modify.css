@@ -1,0 +1,162 @@
+body{
+	
+	height: 0;
+}
+
+.modify_categ_sec{
+	
+	width: 1290px;
+	height: 780px;
+	position: absolute;
+	right: 40;
+	margin-top: 0px;
+	z-index: -1;
+	background: rgba(245, 245, 245, 0.8);
+	padding-top: 0px;
+}
+
+
+#form_heading {
+	
+	width: 100%;	
+	height: 55px;
+	border: none;
+	border-bottom: 1px solid rgba(000, 60, 200, 0.1);
+	border-righ: 1px solid rgba(000, 60, 200, 0.1);
+	vertical-align: top;
+	padding: 15px 15px;
+	background: white;
+	box-shadow: 0px 0px 5px 0px rgb(235, 235, 235);
+	border-radius: 10px;
+	text-align: left;
+	color: #444;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+#form {
+	
+	width: 50%;
+	height: 460px;
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	display: inline-block;
+	vertical-align: top;
+	padding-bottom: 10px;
+	background: white;
+	box-shadow: 0px 0px 15px 5px rgb(235, 235, 235);
+	border-radius: 10px;
+	margin-right: -20px;
+	float: right;	
+	animation: form_anim 2s;
+}
+
+@keyframes form_anim{
+	
+	from{
+		width: 40%;
+	}
+	
+	to{
+		width: 50%;
+	}
+}
+
+#form .field{
+
+	width: 95%;
+	height: 45px;
+	box-shadow: 0px 0px 2px 0px rgb(235, 235, 235);
+	border-radius: 10px;
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	padding-left: 10px;
+	outline-color: lightgray;
+
+}
+
+.imageandstatus{
+	
+	display: inline-block;
+	
+}
+
+#form .imageandstatus .image_field{
+
+	padding-top: 6px;
+	margin-left: 16px;
+	float: left;
+	width: 50%;
+
+}
+
+.pre_image{
+	
+	width: 42%;
+	height: 135px;
+	margin-right: 15px;
+	border: 1px solid lightgray;
+	float: right;
+	margin-top: -135px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.pre_image img{
+	
+	width: 100%;
+}
+
+.field_heading{
+
+	display: inline-block;
+	color: #444;
+	text-align: left;
+	width: 95%;
+}
+
+.imageandstatus .status_heading{
+
+	float: left;
+	color: #444;
+	text-align: left;
+	width: 50%;
+	margin-top: 20px;
+	margin-left: 16px;
+}
+
+#form .imageandstatus .radio{
+
+	color: #444;
+	text-align: left;
+	padding-top: 8px;
+	margin-left: 16px;
+	float: left;
+	width: 50%;
+
+}
+.clear{
+	
+	clear: both;
+}
+
+.categ-edit-sec
+{
+	display: ;
+}
+
+.categ-edit-sec-new
+{
+	display: block;
+}
+
+
+#form .image_dlt{
+	
+	width: 80%;
+	height: 270px;
+	display: inline-block;
+	overflow: hidden;
+}
+#form .image_dlt img{
+	
+	width: 100%;
+}

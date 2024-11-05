@@ -1,0 +1,244 @@
+body{
+	
+	height: 0;
+}
+
+.news-edit-sec{
+	
+	width: 1200px;
+	height: 1470px;
+	position: absolute;
+	right: 40;
+	margin-top: 0px;
+	z-index: -1;
+	background: rgba(245, 245, 245, 0.8);
+	padding-top: 0px;
+}
+
+#form {
+	
+	width: 78%;
+	height: 640px;
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	display: inline-block;
+	vertical-align: top;
+	padding-bottom: 10px;
+	background: white;
+	box-shadow: 0px 0px 15px 5px rgb(235, 235, 235);
+	border-radius: 10px;
+	float: right;	
+	animation: add_news_anim 2s;
+	overflow: hidden;
+}
+
+@keyframes add_news_anim{
+	
+	from{
+		width: 60%;
+	}
+	
+	to{
+		width: 78%;
+	}
+}
+
+.row1{
+	
+	height: 200px;
+}
+
+#form .field{
+
+	width: 46%;
+	height: 45px;
+	box-shadow: 0px 0px 2px 0px rgb(235, 235, 235);
+	border-radius: 10px;
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	padding: 0 20px;
+	margin-left: 22px;
+	outline-color: lightgray;
+	float: left;
+}
+
+
+#form .textarea{
+	
+	height: 199px;
+}
+
+
+.pre_image{
+	
+	width: 47%;
+	height: 285px;
+	margin-right: 18px;
+	border: 1px solid lightgray;
+	float: right;
+	margin-top: -109px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.pre_image img{
+	
+	width: 100%;
+	height: 100%;
+}
+
+#form .field_heading{
+
+	display: inline-block;
+	color: #444;
+	text-align: left;
+	width: 95%;
+	margin-top: 15px;
+
+}
+
+.cross_btn{
+
+	color: #444;
+	float: right;
+	margin-right: 5px;
+	cursor: pointer;
+
+}
+
+#form .cross_btn:hover{
+
+	text-decoration: none;
+}
+
+
+/* Second Row  */
+
+.row2{
+	margin-top: 120px;
+	height: 80px;
+}
+
+.row2 .col1{
+	
+	width: 49%;
+	height: 100%;
+	float: left;
+}
+
+.row2 .col1 .field_heading{
+	
+	display: block;
+	padding-left: 10px;
+}
+
+.row2 .col1 .image_field, .cobmo_field{
+	
+	width: 95%;
+	height: 45px;
+	box-shadow: 0px 0px 2px 0px rgb(235, 235, 235);
+	border-radius: 10px;
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	padding: 0 20px;
+	margin-left: 19px;
+	outline-color: lightgray;
+	
+	
+}
+
+
+.row2 .col1 .image_field{
+	
+	padding-top: 7px;
+	color: #444;
+}
+
+.row2 .col2{
+	
+	width: 49%;
+	height: 100%;
+	float: right;
+	margin-top: -2px;
+}
+
+
+
+.row2 .col2 .field_heading{
+	
+	display: block;
+	margin-left: -15px;
+}
+
+.row2 .col2 .radio_field{
+	
+	width: 95%;
+	height: 45px;
+	box-shadow: 0px 0px 2px 0px rgb(235, 235, 235);
+	border-radius: 10px;
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	padding: 0 20px;
+	margin-right: 19px;
+	outline-color: lightgray;
+	
+	
+}
+
+.row2 .col2 .radio_field{
+	
+	padding-top: 12px;
+	color: #444;
+}
+
+.row3{
+
+}
+
+
+.row3 .field_heading{
+	
+	display: block;
+	margin-left: -5px;
+}
+
+.row3 .cobmo_field{
+	
+	width: 95%;
+	height: 45px;
+	box-shadow: 0px 0px 2px 0px rgb(235, 235, 235);
+	border-radius: 10px;
+	border: 1px solid rgba(000, 60, 200, 0.1);
+	padding: 0 20px;
+	margin-left: -5px;
+	outline-color: lightgray;
+	
+	
+}
+
+#form .buttons{
+	
+	margin-top: 29px;
+}
+
+
+#form .save_btn{
+
+	color: #fff;
+	padding: 5px 30px;
+	background: #15283c;
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px #15283c;
+	width: 140px;
+	opacity: 0.8;
+	border: none;
+}
+
+#form .cancel_btn{
+
+	color: #000;
+	padding: 5px 30px;
+	border: 1px solid #15283c;
+	display: inline-block;
+	width: 140px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px #cccccc;
+	opacity: 0.8;
+}
